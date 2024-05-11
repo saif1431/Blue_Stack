@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+
+#main-form {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('/images/bg/Game2_Background.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.form1 {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.staric {
+  font-size: 5vw;
+  color: red;
+}
+
+.form1 h1 {
+  font-size: 2.3vw;
+  color: #fff;
+  /* margin-top: 1vw; */
+}
+
+.form1 input {
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: red;
+  /* border-bottom: 1px solid #000; */
+  margin-top: 2vw;
+  padding: 1vw;
+
+}
+
+.form1 input::placeholder {
+  text-align: center;
+}
+
+.form1 button {
+  width: 80%;
+  margin-top: 1vw;
+  padding: 1vw 1vw;
+  outline: none;
+  border: none;
+  background-color: red;
+  color: #fff;
+}
+
+.form1 .work {
+  margin-top: 2vw;
+  color: red;
+}
+
+#main-form .img {
+  width: 47%;
+  height: 100%;
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('/images/bg/Game2_Background.jpg');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#main-form .login-form {
+  width: 47%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.singUp-login {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  color: #000;
+  font-weight: 700;
+}
+
+.singUp-login a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.singUp-login a:hover {
+  border-bottom: 2px solid #fff;
+  padding: 1vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  margin-top: 2vw;
+  /* padding: 1vw 1vsw; */
+}
+
+form .email {
+  display: flex;
+  align-items: center;
+  gap: .6vw;
+}
+
+form .email input {
+  width: 25vw;
+  padding: 1vw 1vw;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: none;
+  font-size: 1.2vw;
+  outline: none;
+  color: #fff;
+}
+
+.email i {
+  font-size: 1.3vw;
+}
+
+.form-btns {
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 1vw;
+  gap: .6vw;
+}
+
+.form-btns button {
+  padding: 1vw 1vw;
+  border: none;
+  outline: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+.form-btns a {
+  text-align: center;
+  text-decoration: none;
+  color: red;
+}
+
+.form-btns .signIn {
+  background-color: rgba(255, 0, 0, 0.807);
+  color: #fff;
+  cursor: pointer;
+}
+
+.form-btns .signIn:hover {
+  background-color: rgba(255, 0, 0, 0.969);
+}
+
+.form-btns p {
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+
+.google {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 1vw 1vw;
+  border: none;
+  outline: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.google:hover {
+  background-color: #2671eb;
+}
+
+.facebook {
+  background-color: #4285f4;
+  color: #fff;
+  padding: .8vw 1vw;
+  border: none;
+  outline: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  background-color: #2671eb;
+}
+
+.form-btns img {
+  margin: 0vw .6vw;
+  /* margin-top: 1vw; */
+  /* margin-left: 1vw; */
+}
+
+@media screen and (width > 300px) and (width <768px) {
+  #main-form {
+    flex-direction: column;
+  }
+
+  #main-form .img {
+    width: 100%;
+  }
+
+  #main-form .login-form {
+    width: 100%;
+  }
+
+  .sinup {
+    gap: 1.5vw;
+  }
+
+  .form-btns .gog {
+    font-size: 5vw;
+  }
+
+  .form-btns .face {
+    font-size: 5vw;
+  }
+
+  form .email input {
+    width: 100%;
+    font-size: 4vw;
+  }
+
+  form .email i {
+    font-size: 4vw;
+  }
+
+  form .signIn {
+    padding: 1vw 1vw;
+    font-size: 5vw;
+  }
+
+  form .google {
+    padding: 1vw 1vw;
+    font-size: 5vw;
+  }
+
+  form .facebook {
+    padding: 1vw 1vw;
+    font-size: 5vw;
+  }
+}

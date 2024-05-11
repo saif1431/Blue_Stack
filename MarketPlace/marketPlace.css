@@ -1,0 +1,957 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Form 1 for Select PAyment Method Start-------------------- */
+.form {
+  width: 35%;
+  height: 80%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: none; */
+}
+
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 3vw;
+}
+
+.payment-methods h1 {
+  font-size: 3vw;
+}
+
+.payment-methods p {
+  font-size: 1.3vw;
+  color: red;
+  text-align: center;
+  padding: 1vw 1vw;
+}
+
+.payment-methods button {
+  padding: 1vw 2vw;
+  font-size: 1.2vw;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: red;
+}
+
+.payment-methods button:hover {
+  background-color: rgba(255, 0, 0, 0.751);
+  color: #fff;
+}
+
+.payment1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.827);
+}
+
+.payment1 h1 {
+  font-size: 3vw;
+}
+
+.payment1 img {
+  width: 40%;
+  height: 40%;
+}
+
+/* Form 1 for Select PAyment Method end-------------------- */
+
+/* Form 2 for Xedint ID Method Start-------------------- */
+
+.form2 {
+  width: 35%;
+  height: 80%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.allForm {
+  margin-top: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  gap: .3vw;
+}
+
+.allForm h4 {
+  margin-left: 1.8vw;
+}
+
+.selectOpt select {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2vw;
+  font-weight: 600;
+  margin-left: 2.4vw;
+}
+
+.selectOpt {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 1vw;
+  /* align-items: center; */
+}
+
+.form2-Xident-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  margin-top: 1vw;
+}
+
+.form2-Xident-img img {
+  width: 40%;
+  height: 40%;
+}
+
+.form2-Xident-img h1 {
+  font-size: 3vw;
+  color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  /* margin-tsop: 1vw; */
+}
+
+.item p {
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.form2 h4 {
+  margin-top: .5vw;
+  font-size: 1.4vw;
+  padding: .5vw 1vw;
+}
+
+.form2 label {
+  /* margin-top: 1vw; */
+  font-size: 1.3vw;
+  padding: 1vw 1vw;
+}
+
+/* .form2 input {
+  width: 80%;
+  padding: 1vw 1vw;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  margin-left: 1vw; */
+/* } */
+
+.form2 input:focus {
+  border-bottom: 1px solid red;
+}
+
+.form2 p {
+  margin-left: 1vw;
+}
+
+.form2 h5 {
+  font-size: 1.3vw;
+  margin-left: 2vw;
+}
+
+.form2-btn {
+  margin-top: 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  /* padding: 1vw 1vw; */
+}
+
+.form2-btn button {
+  padding: 1vw 1vw;
+  font-size: 1.1vw;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 0, 0, 0.852);
+  color: #fff;
+}
+
+.form2-btn button:hover {
+  background-color: red;
+  color: #fff;
+}
+
+/* Form 2 for Xedint ID Method END-------------------- */
+
+/* Form 3 for Xedint PH Method Start-------------------- */
+.form3 {
+  width: 35%;
+  height: 80%;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.selectOpt .form2-Xident-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  margin-top: 1vw;
+}
+
+.form2-Xident-img img {
+  width: 40%;
+  height: 40%;
+}
+
+.form2-Xident-img h1 {
+  font-size: 3vw;
+  color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 1vw;
+}
+
+.item p {
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+
+.form3 h4 {
+  margin-top: .5vw;
+  font-size: 1.4vw;
+  padding: .5vw 1vw;
+}
+
+.form3 label {
+  /* margin-top: 1vw; */
+  font-size: 1.3vw;
+  padding: 1vw 1vw;
+}
+
+
+/* .form3 input {
+  width: 80%;
+  padding: 1vw 1vw;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  margin-left: 1vw;
+} */
+
+
+.from3 input:focus {
+  border-bottom: 1px solid red;
+}
+
+
+.form3 p {
+  margin-left: 1vw;
+}
+
+
+.form3 h5 {
+  font-size: 1.3vw;
+  margin-left: 2vw;
+}
+
+/* Form 3 for Xedint PH Method END-------------------- */
+
+/* Form 3 for tazapay Method Start-------------------- */
+
+.form4 {
+  width: 35%;
+  height: fit-content;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+
+.form2-Xident-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1.5vw; */
+  /* margin-top: 1vw; */
+}
+
+.form2-Xident-img img {
+  margin: 0 auto;
+  width: 40%;
+  height: 40%;
+}
+
+.Email {
+  margin-top: 1vw;
+}
+
+
+.form-inputField {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  margin-top: .8vw;
+  /* align-items: center; */
+}
+
+.form2-Xident-img h1 {
+  font-size: 3vw;
+  color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  margin-top: 1vw;
+}
+
+.item p {
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+
+.form4 h4 {
+  margin-top: .5vw;
+  font-size: 1.4vw;
+  padding: .5vw 1vw;
+}
+
+.form4 label {
+  font-size: 1.5vw;
+  font-weight: 600;
+  padding: 0vw 2.7vw;
+  /* margin-top: 2vw; */
+}
+
+.form4 select {
+  width: 88%;
+  background: none;
+  border: none;
+  outline: none;
+  margin-top: 1vw;
+  font-size: 1.3vw;
+  margin-left: 2vw;
+  font-weight: 600;
+}
+
+.form4 option {
+  font-size: 1.3vw;
+
+}
+
+.form4 input {
+  width: 85%;
+  padding: .2vw 1vw;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #000;
+  margin-left: 2.8vw;
+  font-size: 1.2vw;
+}
+
+
+
+.from4 input:focus {
+  border-bottom: 1px solid red;
+}
+
+
+.form4 p {
+  margin-left: 2.5vw;
+}
+
+.form4-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+  gap: 1vw;
+}
+
+.form4-btn button {
+  padding: 1vw 1vw;
+  font-size: 1.1vw;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 0, 0, 0.852);
+  color: #fff;
+}
+
+
+.form4 h5 {
+  font-size: 1.3vw;
+  margin-left: 2vw;
+}
+
+/* Form 3 for tazaPay Method END-------------------- */
+
+/* Form 5------------------------- */
+.form5 {
+  width: fit-content;
+  height: fit-content;
+  background-color: #ffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+
+.eidt-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw;
+  /* border-bottom: 2px solid wheat; */
+}
+
+.image-icon {
+  padding: 1vw 1vw;
+}
+
+.image-icon img {
+  width: 15%;
+  height: 15%;
+}
+
+.image-icon p {
+  font-size: 1.3vw;
+}
+
+.chose-file {
+  padding: 0vw 1vw;
+}
+
+.chose-file input {
+  width: 100%;
+  height: 30%;
+  font-size: 1.2vw;
+  /* background-color: green; */
+  padding: .7vw 1vw;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+
+.input-fileds {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  padding: 1vw 1vw;
+  gap: .3vw;
+}
+
+
+.input-fileds input {
+  width: 100%;
+  padding: 1vw 1vw;
+  border-radius: 5px;
+  /* border: 1px solid #888; */
+}
+
+.input-fileds textarea {
+  padding: .7vw 0vw;
+  border-radius: 5px;
+}
+
+.itemID {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .6vw;
+}
+
+.itemID-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.itemID-number {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #888;
+  width: 90%;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: .6vw 0vw;
+}
+
+.itemID-number button {
+  padding: .5vw .8vw;
+  background-color: red;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+
+.item-id {
+  display: flex;
+  align-items: center;
+  padding: .1vw 1vw;
+  gap: 12vw;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  padding: .4vw 1vw;
+  gap: .6vw;
+
+
+  /* width: 20%; */
+  /* flex-wrap: wrap; */
+  /* width: 100%; */
+}
+
+.add input {
+  /* width: 10  0%;  */
+  padding: 1vw 2vw;
+  border: none;
+  outline: none;
+  border: 1px solid #888;
+  border-radius: 5px;
+}
+
+.add button {
+  padding: 1vw 1.2vw;
+  background-color: rgba(0, 0, 255, 0.855);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.main-button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1vw;
+  padding: .4vw 1vw;
+}
+
+.main-button button {
+  padding: .5vw 1vw;
+  font-weight: 700;
+}
+
+.main-button .delete {
+  background-color: rgba(255, 0, 0, 0.705);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.main-button .close {
+  background-color: #888;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.close:hover {
+  background-color: #555;
+}
+
+.main-button .save {
+  background-color: rgba(0, 0, 255, 0.855);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.save:hover {
+  background-color: blue;
+}
+
+
+
+
+
+#marketPlace {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('/images/background2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.review-secti {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.prev-data {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.previous-data {
+  width: 40%;
+  height: 40%;
+  /* background-color: green; */
+  padding: 1vw;
+}
+
+.prev-div2 button {
+  margin-top: .5vw;
+  padding: 1vw 2vw;
+  font-size: 1.2vw;
+  background-color: rgb(23, 23, 224);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.prev-div2 button:hover {
+  background-color: blue;
+}
+
+.reviews {
+  width: 60%;
+  height: 50%;
+  /* background-color: blue; */
+  color: #fff;
+
+}
+
+.arrow a {
+  display: flex;
+  font-size: 1.5vw;
+  gap: .5vw;
+  text-decoration: none;
+  color: #fff;
+}
+
+.prev-div2 img {
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 1vw;
+}
+
+.prev-div2 h4 {
+  color: #fff;
+  font-size: 1.5vw;
+}
+
+.starss {
+  margin-top: 1vw;
+  display: flex;
+  align-items: center;
+  gap: .7vw;
+  font-size: 1.1vw;
+}
+
+.starss i {
+  color: orange;
+}
+
+.starss p {
+  color: #fff;
+}
+
+.reviews h2 {
+  font-size: 2vw;
+  padding: .5vw 1vw;
+  margin-top: 2vw;
+}
+
+.reviews h4 {
+  font-size: 1.5vw;
+  padding: .5vw 1vw;
+  color: #c8c4c4;
+}
+
+.reviews p {
+  font-size: 1.2vw;
+  padding: .5vw 1vw;
+  color: #b9b6b6;
+}
+
+@media screen and (width > 300px) and (width < 900px) {
+  .previous-data {
+    width: 100%;
+    height: 100%;
+    padding: 4vw;
+  }
+
+  .prev-div2 button {
+    padding: 2vw 2vw;
+    font-size: 5vw;
+    margin-top: 2vw;
+  }
+
+  .prev-div2 img {
+    width: 30vw;
+    height: 20vh;
+    margin-top: 2vw;
+  }
+
+  .arrow a {
+    font-size: 5vw;
+  }
+
+  .prev-div2 {
+    width: 100%;
+    height: 100%;
+    padding: 1vw;
+  }
+
+  .prev-div2 h4 {
+    font-size: 5vw;
+  }
+
+  .starss {
+    font-size: 4vw;
+    margin-top: 2vw;
+  }
+
+  .reviews {
+    width: 100%;
+    height: 100%;
+  }
+
+  .reviews h2 {
+    font-size: 6vw;
+
+  }
+
+  .reviews h4 {
+    font-size: 4vw;
+    margin-top: 1vw;
+  }
+
+  .reviews p {
+    font-size: 4vw;
+    margin-top: 1vw;
+  }
+
+
+  /* Form------------------- */
+  .form {
+    width: 70vw;
+    height: 50vh;
+  }
+
+  .form h1 {
+    font-size: 5vw;
+  }
+
+  .form p {
+    font-size: 5vw;
+  }
+
+  .payment-methods button {
+    font-size: 4vw;
+  }
+
+  /* Form1------------- */
+  .form2 {
+    width: 70vw;
+    height: 50vh;
+  }
+
+  .form2-Xident-img h1 {
+    font-size: 6vw;
+    color: red;
+  }
+
+  .item p {
+    font-size: 5vw;
+    font-weight: 700;
+  }
+
+  .form2 h4 {
+    font-size: 5vw;
+  }
+
+  .form2 label {
+    font-size: 5vw;
+  }
+
+  .form2 h5 {
+    font-size: 5vw;
+    margin-left: 2vw;
+  }
+
+  .form2-btn button {
+    font-size: 4vw;
+  }
+
+  /* Form 2------------------- */
+  .form3 {
+    width: 70vw;
+    height: 50vh;
+  }
+
+  .form2-Xident-img h1 {
+    font-size: 6vw;
+    color: red;
+  }
+
+  .item p {
+    font-size: 5vw;
+    font-weight: 700;
+  }
+
+  .form3 h4 {
+    font-size: 5vw;
+  }
+
+  .form3 label {
+    font-size: 5vw;
+  }
+
+  .form3 h5 {
+    font-size: 5vw;
+    margin-left: 2vw;
+  }
+
+  .form2-btn button {
+    font-size: 4vw;
+  }
+
+  /* Form 3-------------------  */
+  .form4 {
+    width: 70vw;
+    height: 50vh;
+  }
+
+  .form2-Xident-img h1 {
+    font-size: 6vw;
+    color: red;
+  }
+
+  .item p {
+    font-size: 5vw;
+    font-weight: 700;
+  }
+
+  .form4 h4 {
+    font-size: 5vw;
+  }
+
+  .form4 label {
+    font-size: 5vw;
+  }
+
+  .form4 input {
+    width: 100vw;
+  }
+
+  .form4 h5 {
+    font-size: 5vw;
+    margin-left: 2vw;
+  }
+
+  .form2-btn button {
+    font-size: 4vw;
+  }
+
+  /* Form 5--------------------------- */
+  .form5 {
+    width: 70vw;
+    height: 60vh;
+  }
+
+  .image-icon p {
+    font-size: 4vw;
+  }
+
+  .chose-file input {
+    font-size: 3.3vw;
+  }
+
+  .input-fileds {
+    gap: 1vw;
+  }
+
+  .input-fileds input {
+    font-size: 3.vw;
+  }
+
+  .input-fileds label {
+    font-size: 3.3vw;
+  }
+
+  .itemID {
+    margin-top: 2vw;
+  }
+
+  .itemID p {
+    font-size: 4vw;
+  }
+
+  .itemID label {
+    font-size: 4vw;
+  }
+
+  .add {
+    flex-direction: column;
+    gap: 1.5vw;
+  }
+
+  .main-button {
+    margin-top: 1vw;
+  }
+}

@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* Home Page---------------------------- */
+#home {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('/images/bg/Game2_Background.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+
+nav {
+  width: 100vw;
+  height: 15vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 5vw; */
+}
+
+nav .logo img {
+  width: 12%;
+  height: 12%;
+  object-fit: cover;
+}
+
+
+.btn {
+  display: flex;
+  gap: .5vw
+}
+
+.btn button {
+  padding: 1vw 1.3vw;
+  font-weight: 800;
+  font-size: 1.2vw;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.7));
+  color: #fff;
+  cursor: pointer;
+  /* margin-right: 6vw; */
+}
+
+.btn button:hover {
+  background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.4));
+  color: #fff;
+}
+
+.menebar {
+  display: flex;
+  align-items: center;
+  gap: 1.5vw;
+  padding: 2vw;
+}
+
+.menebar i {
+  color: #fff;
+  font-size: 1.4vw;
+}
+
+.menebar i:hover {
+  color: yellow;
+}
+
+.ri-square-line {
+  border-radius: 10px;
+}
+
+/* Left Navbar----------- */
+/* Game div------------------ */
+.game-div {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding: 1vw;
+}
+
+.left-navbar {
+  width: 10%;
+  height: 80%;
+  /* margin: 5vw .5vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5vw;
+  border-right: .1px solid #fff;
+}
+
+.nav-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.nav-game a {
+  margin-top: .5vw;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-game a:hover {
+  color: yellow;
+}
+
+.nav-game i:hover {
+  color: yellow;
+}
+
+.nav-game p:hover {
+  color: yellow;
+}
+
+.nav-game i {
+  font-size: 1.5vw;
+  color: #fff;
+  font-weight: 400;
+}
+
+.nav-game p {
+  margin-top: .5vw;
+  font-size: 1.2vw;
+  font-weight: 200;
+  color: #fff;
+}
+
+/* GameName Boxes----------------------- */
+.gameName-box {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-div {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5vw;
+}
+
+
+.top-div1 {
+  width: 30%;
+  height: 70%;
+}
+
+.top-div1-1 {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.top-div1-1 img {
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+}
+
+.starrr i {
+  color: orange;
+}
+
+.starrr p {
+  margin-top: .6vw;
+  color: #fff;
+}
+
+.top-div1 h1 {
+  font-size: 1.8vw;
+  color: #fff;
+  margin-top: 1vw;
+  padding: 1vw 1vw;
+}
+
+.top-div2 {
+  width: 5%;
+  height: 90%;
+  /* border: 1px solid #ffffffd3; */
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4vw;
+
+}
+
+.social-icons i {
+  font-size: 2vw;
+  color: #fff;
+  font-weight: 400;
+}
+
+.social-icons i:hover {
+  color: yellow;
+}
+
+.bottom-div {
+  width: 100%;
+  height: 45%;
+  /* background-color: red; */
+}
+
+/* Swiper JS---------------------- */
+.swiper {
+  width: 100%;
+  height: 100%;
+  transition: all ease .5s;
+  /* background-color: red; */
+}
+
+.swiper-slide {
+  /* width: 90; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all ease .5s;
+  /* background-color: red; */
+}
+
+.swiper-slide a {
+  width: 100vw;
+  color: #fff;
+  text-decoration: none;
+  /* background-color: green; */
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  transition: all ease .5s;
+}
+
+
+.swiper-slide p {
+  margin-top: .5vw;
+  transition: all ease .5s;
+}
+
+.swiper-slide h6 {
+  margin-top: .1vw;
+  transition: all ease .5s;
+}
+
+.swiper-slide:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: 1vw 1vw;
+  border: 1px solid yellow;
+  scale: 1;
+
+}
+
+.swiper-button-next:after {
+  color: #000;
+}
+
+.swiper-button-prev:after {
+  display: none;
+}
+
+@media screen and (width >300px) and (width <900px) {
+  nav .logo img {
+    width: 30%;
+    height: 30%;
+  }
+
+  .btn button {
+    padding: 2vw 2vw;
+    font-size: 3vw;
+  }
+
+  .left-navbar {
+    width: 25%;
+    display: flex;
+    gap: 6vw;
+  }
+
+  .menebar i {
+    font-size: 4vw;
+  }
+
+  .nav-game {
+    gap: 2vw;
+  }
+
+  .nav-game i {
+    font-size: 3.5vw;
+  }
+
+  .gameName-box {
+    width: 70%;
+  }
+
+  .top-div1 {
+    width: 70%;
+    height: 40%;
+  }
+
+  .top-div2 {
+    width: 9%;
+  }
+
+  .social-icons i {
+    font-size: 5vw;
+    /* margin-right: 2vw; */
+  }
+}
+
+/* loader-------------------------------- */
+
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background: #000 url('/images/logo2.jpg') no-repeat center center;
+  background-size: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease 3s;
+  animation: size 2s linear infinite;
+}
+
+@keyframes size {
+  0% {
+    background-size: 100%;
+    opacity: 2;
+  }
+
+
+  100% {
+    background-size: 30%;
+    opacity: .7;
+  }
+}

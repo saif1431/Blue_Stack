@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.form1 input {
+  color: #fff;
+}
+
+.form1 h1 {
+  font-size: 10vw;
+}
+
+@media screen and (width > 300px) and (width <768px) {
+  .form1 h1 {
+    font-size: 6vw;
+  }
+}

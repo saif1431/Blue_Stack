@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#market {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url('/images/background2.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+
+#market h1 {
+  color: #fff;
+  font-size: 7vw;
+  margin-left: 10vw;
+}
